@@ -1,14 +1,18 @@
 import React from 'react';
-
+import {useTelegram} from "../hooks/useTelegram";
 import { Link } from 'react-router-dom';
 import Header from './Header';
 import adminPhoto from './../images/admin.png'
 import usersPhoto from './../images/man.png'
 import statisticPhoto from './../images/monitoring.png'
 function Home(props) {
+    const {user, onClose} = useTelegram();
+
     return (
        <div>
         <Header name='home'/>
+        <h1>ddd</h1>
+        <h1> {user?.username}</h1>
         <div class="ag-courses_box" >
         
         <div id="response-container" style={{color: 'aliceblue'}}>

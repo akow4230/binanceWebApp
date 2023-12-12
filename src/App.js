@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Admin from "./pages/Admin";
 import Users from "./pages/Users";
 import Statistic from "./pages/Statistic";
+import DinamikPage from "./pages/DinamikPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/admins" element={<Admin/>} />
         <Route path="/users" element={<Users/>} />
         <Route path="/traders" element={<Statistic/>} />
+        <Route path="/admin/{id}" element={<DinamikPage/>}/>
       </Routes> 
     </div> 
       
