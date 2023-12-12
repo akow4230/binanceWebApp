@@ -18,7 +18,7 @@ function App() {
         <Route path="/admins" element={<Admin/>} />
         <Route path="/users" element={<Users/>} />
         <Route path="/traders" element={<Statistic/>} />
-        <Route path="/admin/{id}" element={<DinamikPage/>}/>
+        {/* <Route path="/admin/{id}" element={<DinamikPage/>}/> */}
       </Routes> 
     </div> 
       

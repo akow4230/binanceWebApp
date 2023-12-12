@@ -11,7 +11,7 @@ function Home(props) {
     return (
        <div>
         <Header name='home'/>
-        <h1>ddd</h1>
+        <h1>zzzzz</h1>
         <h1> {user?.username}</h1>
         <div class="ag-courses_box" >
         
